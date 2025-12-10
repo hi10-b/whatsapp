@@ -16,7 +16,8 @@ for filename in os.scandir(path):
         filePath = path + '\\' + str(imgName)
         msg = "Jay Swaminarayan " + str(ylist[str(phone)]) + ", We Wish you a Happy Diwali and a Prosporous New Year. \n This is a test message."
         # print('file path: ', filePath)
-        pywhatkit.sendwhats_image(phone, filePath,msg, 15, True, 2)
+        pywhatkit.sendwhats_image(phoneNum, ".\\images\\aa.gif","hello how are you")
+        # pywhatkit.sendwhats_image(phone, filePath,"hello how are you")
         
         
         # if os.path.isfile(f):
@@ -24,10 +25,10 @@ for filename in os.scandir(path):
         #     print(f)
         #     pywhatkit.sendwhats_image(receiver, img_path)
 
-# pywhatkit.sendwhatmsg_instantly('+61413598987', 'hello')
+# pywhatkit.sendwhatmsg_instantly(phoneNum, 'hello')
 
 
 
-# pywhatkit.sendwhats_image("+61413598987", "D:\\projects\\whatsapp\\test.png","test img")
-# pywhatkit.sendwhats_image("+61452426758"+61413598987, "D:\\projects\\whatsapp\\test.png","test img")
+# pywhatkit.sendwhats_image(phoneNum, "D:\\projects\\whatsapp\\test.png","test img")
+# pywhatkit.sendwhats_image(phoneNum, "D:\\projects\\whatsapp\\test.png","test img")
 
